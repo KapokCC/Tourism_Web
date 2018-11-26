@@ -1,0 +1,73 @@
+/*开始土耳其之旅动画代码*/
+@-webkit-keyframes wecome{
+	0%{opacity: 0;}
+	10%{opacity: 0.6;}
+	100%{opacity: 0;
+		display: none;
+		margin-top: 300px;}
+}
+@-moz-keyframes wecome{
+	0%{opacity: 0;}
+	10%{opacity: 0.6;}
+	100%{opacity: 0;
+		display: none;
+		margin-top: 300px;}
+}
+@-ms-keyframes wecome{
+	0%{opacity: 0;}
+	10%{opacity: 0.6;}
+	100%{opacity: 0;
+		display: none;
+		margin-top: 300px;}
+}
+@keyframes wecome{
+	0%{opacity: 0;}
+	10%{opacity: 0.6;}
+	100%{opacity: 0;
+		display: none;
+		margin-top: 300px;}
+}
+
+/*美食侧边栏滤镜*/
+@-webkit-keyframes cebianlvjing{
+	0%{width: 0%;
+		height: 0px;}
+	100%{width:100%;}
+}
+@-moz-keyframes cebianlvjing{
+	0%{width: 0%;
+		height: 0px;}
+	100%{width:100%;}
+}
+@-ms-keyframes cebianlvjing{
+	0%{width: 0%;
+		height: 0px;}
+	100%{width:100%;}
+}
+@keyframes cebianlvjing{
+	0%{width: 0%;
+		height: 0px;}
+	100%{width:100%;
+}
+
+
+/*@-webkit-keyframes meishi{
+	0%{
+		height: 0px;}
+	100%{width:100%;}
+}
+@-moz-keyframes meishi{
+	0%{
+		height: 0px;}
+	100%{width:100%;}
+}
+@-ms-keyframes meishi{
+	0%{
+		height: 0px;}
+	100%{width:100%;}
+}
+@keyframes meishi{
+	0%{
+		height: 0px;}
+	100%{width:100%;
+}*/

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		#divL{
+			height:750px;
+		    width:100% ;
+		  margin-top: -20px;
+		     /*margin-left: 20px;*/
+/*	
+		   background-image:url(img/tupian/111.jpg);
+		   background-size: cover;*/
+			/* background-image:radial-gradient(ellipse at center,#fff,#fff,#F5F5F5,#FAF0E6,#FAF0E6,#FAEBD7); */
+			 }
+		 .gou{
+		     font-family: "微软雅黑";
+		     font-size: 30px;
+		     position: absolute;
+		    margin-top: 30px;
+		     margin-left:670px;
+	         
+			}
+		  #div2{
+		  	 height:700px;
+	         width: 500px;
+	        /* float: left;*/
+	  
+	      
+	     }
+	      #z{
+	         position: absolute;
+	         width: 66%;
+	         left: 250px;
+	         top: 150px;
+	         font-size: 21px;
+	       /*  height: 450px;*/
+	    
+            }
+          fieldset{ border-radius: 20px;}
+         #a{
+        	position: absolute;
+        	left: 480px;
+	        top: 680px;
+	        width: 80px;
+	        height: 5%;
+        }
+        #b{
+        	position: absolute;
+        	left: 880px;
+	        top: 680px;
+	        width: 80px;
+	        height: 5%;
+        }
+         input{
+	         	border-radius: 15px;
+	         } 
+	     .hang{
+	     	margin-left: -10px;
+	     	margin-top: 20px;
+	     	width: 100%;
+	     	height:50px;
+	     	background-color:honeydew;
+	     	font-size: 17px;
+	     /*	z-index: 13px;*/
+	     }
+	    ul li{
+	    	list-style: none;
+	    	margin-left: 6.5em;
+	    	float:left;
+	    	line-height:43px;
+	    } 
+	  #divL  ul li a:hover{
+	    	
+	               color: white;
+					background-color:pink;
+					border-radius: 5px;
+					display: block;
+					width: 80%;
+					line-height: 180%;
+					margin-left: 18px;
+	 }
+	 input:hover{
+	 	background-color:pink;
+	 }
+		</style>
+	</head>
+	<body>	
+		<div id="divL">
+			
+		<ul class="hang">
+						<li><a href="01.html">门票</a></li>
+						<li><a href="#">机票</a></li>
+						<li><a href="#">火车票</a></li>
+						<li><a href="#">汽车票</a></li>
+						<li><a href="#">酒店</a></li>
+						<li><a href="#">用车</a></li>
+						<li><a href="#">周边游</a></li>
+						<li><a href="#">推荐</a></li>
+						<li><a href="#">旅游路线</a></li>
+						
+		</ul>
+		
+		<p class="gou">购买门票</p>	
+		
+		<div id="div2">
+			<form>
+			<fieldset id="z">
+				<legend>个人信息</legend>
+				<br />
+			<p><span>账号:</span><input type="text" placeholder="myemail@167.com" pattern="^[a-zA-Z][a-zA-Z0-9_]{5,16}$"  autofocus="true"/>
+				<font color="red">（以字母开头，允许6~17字节，允许字母数字下划线）</font></p>
+				<br />
+			<p><span>请输入您的名字:</span><input type="text" placeholder="即墨" pattern="^[\u4e00-\u9fa5]{0,}$"  required="required"/>
+				<font color="red">(必须填写，只能输入汉字)</font></p>
+				<br />
+			<p><span>密码:</span><input type="password" placeholder="首次输入密码" pattern="^[a-zA-Z]\w{5,17}$" required="required" />
+				<font color="red">(以字母开头，长度在6~18，只能包含字母、数字，不能为空)</font></p>
+				<br />
+			<p><span>选择城市：
+					<select>
+						<option></option>
+						<option>土耳其</option>
+					</select>
+					<select>
+						<option></option>
+						<option>伊斯坦布尔</option>
+						<option>卡帕多西亚</option>
+						<option>棉花堡</option>
+						<option>安塔利亚</option>
+						<option>佛特希耶</option>
+						<option>博德鲁姆</option>
+						<option>帕穆克卡莱</option>
+						<option>恰纳卡莱</option>
+						<option>开塞利</option>
+						<option>以弗所</option>
+						<option>安卡拉</option>
+						<option>塞尔丘克</option>
+						<option>番红花城</option>
+						<option>伊兹密尔</option>
+					</select>
+						<br><br />
+					
+			<p><span>购买数量：
+					<select>
+						<option></option>
+						<option>大人</option>
+						<option>儿童</option>
+					</select>
+					<select>
+						<option></option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+					</select>张
+				 <br />	
+				  <br />	
+			</fieldset>
+	        		<input id="a" type="submit" value="购买"/>
+			        <input id="b" type="reset" value="重置"/>	
+			<!--<ul id="divL">
+				<li name="Image" onload="setTimeout('Begin()',1000)" style="background-image:url(img/tupian/0.jpg);background-size: cover;"></li>
+				<li name="Image" onload="setTimeout('Begin()',1000)" style="background-image:url(img/tupian/1.jpg);background-size: cover;"></li>
+			</ul>-->
+			<img src="img/tupian/0.jpg" name="MyImage" onload="setTimeout('Begin()',2500)"  width="1700px" height="700px"/>	
+			
+		</div>
+		</div>
+	</body>
+</html>
+		<script>
+			var ImageArray=new Array();
+			for (i=0;i<=2;i++)
+			{
+				ImageArray[i]=new Image();
+				ImageArray[i].src="img/tupian/"+i+".jpg";
+			}
+			var ImageNum=0;
+			function Begin()
+			{
+				document.MyImage.src=ImageArray[ImageNum].src;
+				ImageNum++;
+				if(ImageNum>2)
+				ImageNum=0
+			}
+		</script>

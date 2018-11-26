@@ -1,0 +1,126 @@
+#bigbig{
+	width: 80%;
+	margin-left: 10%;
+	height: 400px;
+}
+#bigbig1{
+	margin-left: 10%;
+}
+#bb{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+}
+#bb1{
+	width: 100%;
+	height: 30px;
+}
+#xfk1{
+	width: 0.8%;
+	height: 30px;
+	background-color: lawngreen;
+	float: left;
+	/*margin-left: 10%;*/
+	border-radius: 8px 0px 5px 5px;
+}
+#xfk2{
+	width: 0.8%;
+	height: 30px;
+	background-color: orangered;
+	float: left;
+	/*margin-left: 10%;*/
+	border-radius: 8px 0px 5px 5px;
+}
+#gd{
+	text-decoration: none;
+	float: right;
+	color: #000000;	
+}
+#bx{
+	width: 100%;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+}
+#zy{
+	width: 33%;
+	height: 370px;
+	float: left;
+	
+}
+#zj{
+	width: 33%;
+	height: 370px;
+	float: left;
+}
+#zj img{
+	width: 100%;
+	height: 184px;	
+}
+#zz img{
+	width: 100%;
+	height: 184px;	
+}
+#zj a{
+	text-decoration: none;
+}
+#zz a{
+	text-decoration: none;
+}
+#kp{
+	position: relative;
+	top: -50px;
+}
+#zz{
+	width: 33%;
+	height: 370px;
+	background-color: green;
+	float: left;
+}
+#bx div{
+	border: 1px solid white;
+}
+#zj div{
+	width: 100%;
+	height: 184px;
+}
+#zz div{
+	width: 100%;
+	height: 184px;
+}
+#ct{
+	width: 100%;
+	height: 300px;
+	margin-top: 15px;
+}
+#ct div{
+	width: 285px;
+	height: 300px;
+	float: left;
+}
+#xh2{
+	margin-left: 10px;
+}
+#ct li{
+	list-style: none;
+	white-space:pre;
+	line-height: 30px;
+	margin-left: 2px;
+	margin-top: 5px;
+	
+}
+#yc{
+	margin-top: -15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000000;
+}
+span{
+	color: red;
+	font-size: 18px;
+}
+#yuan font{
+	color: gray;
+	margin-left: 80px;
+}

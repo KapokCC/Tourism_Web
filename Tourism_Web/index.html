@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script src="js/prefixfree.min.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/donghua.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lunhuan.css"/>
+		<script>
+		function pageScroll() {
+			window.scrollBy(0,-40);scrolldelay=setTimeout('pageScroll()',0.5);
+			if(document.documentElement.scrollTop==0)clearTimeout(scrolldelay);
+		}
+		</script>
+		<title></title>
+	</head>
+	<body>
+		<div class="box1">
+			<div class="top">		<!--头部导航-->
+					<p><a href="index.html"><img src="img/logo/151162103047864.png"</a></p>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">去哪儿</a></li>
+						<li><a href="#">旅游地图</a></li>
+						<li><a href="#">旅游攻略</a></li>
+						<li><a href="#">驴友聚集</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+			</div>
+			<div class="img_r">		<!--js轮换-->
+				<div class="img_i" id="box">
+					<ul class="list">
+						<li class="current" style="opacity: 1;background-image: url(img/banner/1.jpg);background-size: cover;background-position: 60% 60%;"><div><p>夜色土耳其 在璀璨迷情的星空中沉醉</p><p>若将城市比作星辰，伊斯坦布尔也许会是其中不那么明亮却别致的一颗。改朝换代，对它来说并不鲜见；从拜占庭，到君士坦丁堡，再到伊斯坦布尔，它的名字，每一个的余音仍旧足以鼓动历史的耳膜。</p></div></li>
+						<li style="opacity: 0;background-image: url(img/banner/2.jpg);background-size: cover;"><div style="height: 240px;"><p>史诗般的前世，遍地传奇</p><p>有关伊斯坦布尔古老的那一面，最生动的形象莫过于由众多清真寺的穹顶组成的天际线。罗兰巴特尔说过，巴黎任何地方都能看到埃菲尔铁塔。在伊斯坦布尔，你的眼皮无论何处都会被清真寺挑动。伊斯坦布尔清真寺之多，甚至连苏丹•艾哈迈德清真寺和圣索菲亚大教堂也极容易搞混。</p></div></li>
+						<li style="opacity: 0;background-image: url(img/banner/3.jpg);background-size: cover;background-position: 30% 30%;"><div><p>土耳其第一大城市——伊斯坦布尔</p><p>伊斯坦布尔是土耳其经济、文化、金融、新闻、贸易、交通中心，世界著名的旅游胜地，繁华的国际大都市之一。公元前658年始建在金角湾与马尔马拉海之间的地岬上，称拜占庭。公元330年改建为东罗马帝国首都，改名为君士坦丁堡。别称新罗马。</p></div></li>
+						<li style="opacity: 0;background-image: url(img/banner/4.jpg);background-size: cover;background-position: 40% 40%;"><div><p>这是古代帝国留下足迹的地方。</p><p>从奥斯曼国王的代建就开始建造宫殿的亚拉腊山俯瞰，伊沙克İshakPaşa Sarayı palace与邻国亚美尼亚和前波斯帝国完美融合在一起，创造了土耳其东部最令人难以置信的历史。这座宫殿历经沧桑，在一战时期，与俄罗斯的一次战斗中，二楼几乎被整个削去。</p></div></li>
+						<li style="opacity: 0;background-image: url(img/banner/5.jpg);background-size: cover;"><div style="height: 240px;"><p>天空之境蓝礁湖</p><p>蓝礁湖位于土耳其费特希耶省，这里的湖水呈现出的宝石绿和宝石蓝。目前它也已经正式被授予了“蓝旗”认证，并在旅行者杂志中被评论为全球前五名的海滩之一。若是粉色沙滩也与之结合，估计更加美丽。它的得名来自其独一无二的海岸地形，绵延的海岸线迂回成一个大回转的海湾，蓝宝石色调的海水清澈得令人难以相信。</p></div></li>
+						<li style="opacity: 0;background-image: url(img/banner/6.jpg);background-size: cover;background-position: 40% 40%;"><div style="height: 280px;"><p>卡帕多西亚气球之旅</p><p>在“地球上最像月亮的地方”上空来一次热气球之旅，无疑是我这趟土耳其之行最期待、最梦寐以求的。卡帕多西亚，大自然的鬼斧神工造就了这里奇特的地理环境，如果你来到这里只参加白天在沟壑、山谷、拥有圆锥尖的“仙人烟囱”间穿梭徒步，那我可以肯定的跟你说，你还没真正来过卡帕多西亚，只有你搭乘热气球去体验一次令人难忘的热气球飞行盛宴，那才称得上是一趟完美的卡帕多西亚之旅。</p></div></li>
+					</ul>
+				</div>
+				<div id="box1">  
+       				 <ul class="count">  
+           				 <li class="current"></li>  
+         				 <li class=""></li>  
+         				 <li class=""></li>  
+           				 <li class=""></li>  
+           				 <li class=""></li>  
+           				 <li class=""></li>  
+       				 </ul>  
+   				 </div>  
+			</div>
+			<div class="text">
+				<div class="text2">
+						<img src="img/dingwei.png" style="width: 100px;height: 100px;margin-left: 40%;"/>
+						<h1 class="h1">土耳其</h1>
+						<h2 class="h1">Turkey</h2>
+						<div class="p1">
+							<p>土耳其，是一个横跨欧亚两洲的国家，北临黑海，南临地中海，东南与叙利亚、伊拉克接壤，西临爱琴海，与希腊以及保加利亚接壤，东部与格鲁吉亚、亚美尼亚、阿塞拜疆和伊朗接壤。土耳其地理位置和地缘政治战略意义极为重要，是连接欧亚的十字路口。</p>
+							<p>星罗棋布的江河湖海如同闪亮的眼眸，深情款款地诉说着这片土地的美丽与传奇。来到此地，你是会被历史对它的厚爱淹没，还是迷情海岸风景间？</p>
+						</div>
+				</div>
+			</div>
+			<div class="box3">		<!--景点介绍-->
+				<div class="box4">
+					<p>开始土耳其之旅吧！</p>
+					<p>﹀</p>
+				</div>
+			</div>
+			<!--安塔利亚正面盒子介绍-->
+			<div class="box5" style="background-image: url(img/antaliya/turkey-1162626_1920.jpg);color: white;">		<!--安塔利亚景区-->
+				<div class="anta">		<!--标题-->
+					<p class="an1">安</p>
+					<p class="an2">塔利亚</p>
+				</div>
+				<div class="antajian">		<!--景区介绍-->
+					<div>处。安塔利亚将带给游客一种身心愉悦的感受。</div>
+					<div>美味可口的菜肴,都是安塔利亚这座城市的迷人之</div>
+					<div>林荫大道,一个极漂亮具有历史意义的码头，以及</div>
+					<div>沿岸,被无数群山环绕，成行的棕榈树构成一条条</div>
+					<div>安塔利亚是土耳其最美丽的地区，它位于地中海</div>
+				</div>
+				<div class="animg">		<!--景区图片-->
+					<img src="img/antaliya/alanya-1444492_1920.jpg" style="width: 605px;height: 400px;"/>
+					<img src="img/antaliya/alanya-2284928_1920.jpg"/>
+					<img src="img/antaliya/antalya-2708329_1920.jpg"/>
+					<img src="img/antaliya/boat-2577397_1920.jpg"/>
+				</div>
+			</div>
+			<div class="box6" style="background-image: url(img/cappadocia/cappadocia-1773474_1920.jpg);color: white;">		<!--安塔利亚景区-->
+				<div class="box6_img">		<!--景区图片-->
+					<img src="img/cappadocia/cappadocia-489928_1920.jpg" style="width: 200px;height:710px;"/>
+					<img src="img/cappadocia/cappadocia-1773461_1920.jpg" style="width: 420px;height: 233px;"/>
+					<img src="img/cappadocia/cappadocia-1773513_1920.jpg" style="width: 420px;height: 233px;"/>
+					<img src="img/cappadocia/cappadocia-828957_1920.jpg" style="width: 420px;height: 233px;"/>
+				</div>
+				<div class="box6_jian">		<!--景区介绍-->
+					<div>卡帕多西亚以其童话般的斑点岩层而闻名：奇特的岩</div>
+					<div>石构造、岩洞和半隐居人群的历史遗迹令人神往。这</div>
+					<div>里起初是基督教徒躲避罗马迫害的避难处，经过长年</div>
+					<div>风化水蚀之特殊景观，耸立着形状不一之岩石丘陵，</div>
+					<div>不少岩洞内还保存有许多湿壁画。</div>
+				</div>
+				<div class="box6_bt" style="margin-top: 60px;">		<!--标题-->
+					<p class="ka1">卡</p>
+					<p class="ka2">帕多奇亚</p>
+				</div>
+			</div>
+			<!--费特希耶正面盒子介绍-->
+			<div class="box5" style="background-image: url(img/feitexier/turkey-1162630_1920.jpg);color: white;">		<!--费特希耶-->
+				<div class="anta">
+					<p class="an1">费</p>
+					<p class="an2">特希耶</p>
+				</div>
+				<div class="antajian">
+					<div>诉说着死海动人的美丽传说。</div>
+					<div>么的妩媚和多情，而不断拍打岩的海浪则在静静地</div>
+					<div>神奇的死海在蓝天碧海，青山白沙的掩映下，是那</div>
+					<div>许是大自然给了土耳其最丰厚的热爱与宠幸，这片</div>
+					<div>费特希耶是土耳其南部的著名古镇和度假胜地。也</div>
+				</div>
+				<div class="animg" style="margin-top: 50px;">
+					<img src="img/feitexier/boats-2708344_1920.jpg" style="width: 400px;height: 300px;"/>
+					<img src="img/feitexier/marine-1211865_1280.jpg"/>
+					<img src="img/feitexier/fethiye-2210974_1280.jpg" style="width: 300px;"/>
+					<img src="img/feitexier/turkey-1146558_1920.jpg" style="width: 300px;"/>
+				</div>
+			</div>
+			<div class="box6" style="background-image: url(img/mianhuabao/hierapolis-of-phrygia-1282421_1920.jpg);background-size: cover;background-position: 50% 50%;color: white;">		<!--棉花堡盒子-->
+				<div class="box6_bt" style="margin-left: 1360px;margin-top: 100px;">
+					<p class="ka1">棉</p>
+					<p class="ka2">花堡</p>
+				</div>
+				<div class="box6_jian" style="margin-left: 1190px;margin-top: 200px;">
+					<div>棉花堡在土耳其西南部山区，如此可爱的名字，源自其</div>
+					<div>外形像铺满棉花的城堡。所谓棉花，就是泉水从山顶往</div>
+					<div>下流，所经之处历经千百年钙化沉淀，形成层层相叠的</div>
+					<div>半圆形白色天然石灰岩阶梯，所以土耳其人称它为棉花</div>
+					<div>堡。是远近闻名的温泉度假胜地。</div>
+				</div>
+				<div class="mianimg">
+					<ul>
+						<li style="width: 800px;height: 500px;text-align: center;"><img id="img" src="img/mianhuabao/5.jpg" /></li>
+						<!--<li><img id="img" src="img/mianhuabao/22.jpg"/></li>
+						<li><img id="img" src="img/mianhuabao/24.jpg" /></li>
+						<li><img id="img" src="img/mianhuabao/27.jpg" </li>
+						<li><img id="img" src="img/mianhuabao/37.jpg"/></li>
+						<li><img id="img" src="img/mianhuabao/4.jpg"/></li>
+						<li><img id="img" src="img/mianhuabao/09.jpg"/></li>
+						<li><img id="img" src="img/mianhuabao/815.jpeg"/></li>-->
+					</ul>
+				</div>
+			</div>
+			<div class="box5" style="background-image: url(img/geleimu/travel-1063352_1920.jpg);color: white;">
+				<div class="anta">
+					<p class="an1">格</p>
+					<p class="an2">雷梅</p>
+				</div>
+				<div class="antajian">
+					<div>格雷梅所在的地点自古罗马时期形成定居地点。</div>
+					<div>基督教当时在该地区流行，今天仍然可以看到许</div>
+					<div>多当时的岩石教堂。远古时代5座大火山喷发出</div>
+					<div>来的火山岩，构成了格雷梅三角带的地基。</div>
+				</div>
+				<div class="animg" style="margin-top: 50px;">
+					<img src="img/geleimu/19.jpeg" style="width: 400px; height: 200px;"/>
+					<img src="img/geleimu/20.jpeg"  style="width: 200px; height: 200px;"/>
+					<img src="img/geleimu/36.jpeg"  style="width: 200px; height: 200px;"/>
+					<img src="img/geleimu/41.jpeg"  style="width: 400px; height: 200px;"/>
+					<img src="img/geleimu/47.jpeg" style="width: 400px; height: 200px;"/>
+					<img src="img/geleimu/69.jpeg"  style="width: 200px; height: 200px;"/>
+				</div>
+			</div>
+			<div class="food1">		<!--食物板块-->
+				<div class="cebian">		<!--食物板块左边背景-->
+					<div class="cebian_i">		<!--左边背景黑色透明滤镜-->
+						<p class="cebian_i_p">美</p>
+						<p class="cebian_i_p2">食</p>
+					</div>
+				</div>
+				<div class="food2">		<!--食物板块右边-->
+					<div style="background-image: url(img/food/tea/turkish-tea-578732_1920.jpg);width: 30%;height: 200px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/tea/wKgB3FGUgXSAPwESAALXNl5AbAI39.jpeg);width: 10%;height: 300px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/kaorou/kebab-2505240_1920.jpg);width: 40%;height: 300px;background-size: cover;background-position: 50% 50%;"></div>
+					<div class="food_text">
+						<img src="img/meishi.png" style="margin-top: 30px;margin-left: 34%;"/>
+						<div>
+							<p>土耳其烤肉快餐起源于古老的土耳其帝国宫廷烤肉宴会，后流传至民间，因其制作方式简便快捷、味道鲜美独特而漫延整个中东地区。在土耳其任何餐厅中，你可以看见最少5中烤肉。</p>
+						</div>
+					</div>
+					<div class="food_text" style="margin-top: -96px;">
+						<img src="img/tea.png" style="width: 70px;height: 70px;margin-top: 30px;margin-left: 35%;"/>
+						<div>
+							<p>土耳其是世界上是第五大茶叶生产国和第四大消费国。据说一个土耳其人一天怎么也得喝上10杯茶才算数。土耳其红茶如不放糖味道稍苦，一般放进两块方糖即可。</p>
+						</div>
+					</div>
+					<div style="background-image: url(img/food/tea/tea-2260693_1920.jpg);width: 10.8%;height: 400px;background-size: cover;background-position: 50% 50%;margin-top: -96px;"></div>
+					<div style="background-image: url(img/food/tea/coffee-720774_1920.jpg);width: 25%;height: 200px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/kaorou/kebab-2505241_1920.jpg);width: 25%;height: 200px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/pizza/1500367580410585.jpg);width: 10%;height: 200px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/pizza/1500367719357050.jpg);width: 8.9%;height: 200px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/mp57401475_1454230405850_3.jpeg);clear:left;margin-top: -96px;width: 19%;height: 289px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/turkish-2893751_1280.jpg);width: 10.8%;height: 189px;background-size: cover;background-position: 50% 50%;"></div>
+					<div style="background-image: url(img/food/qlm20131109-teq-5.jpg);width: 20%;height: 289px;background-size: cover;background-position: 50% 50%;margin-top: -98px;"></div>
+					<div class="food_text" style="margin-top: 2px;height:290px;margin-top: -98px;">
+						<img src="img/pizza.png" style="width: 50px;height: 50px;"/>
+						<div>
+							<p>土耳其披萨，通常是用船型的面饼做成的，口味丰富，其中肉末、菠菜和奶酪混合的口味最为常见。</p>
+						</div>
+					</div>
+					<div style="background-image: url(img/food/pizza/1500367666445912.jpg);width: 21%;height: 289px;background-size: cover;background-position: 50% 50%;margin-top: -98px;"></div>
+					<div style="background-image: url(img/food/qlm20131109-teq-4.jpg);width: 8.8%;height: 289px;background-size: cover;background-position: 50% 50%;margin-top: -98px;"></div>
+				</div>
+			</div>
+			<div style="width: 100%;height: 500px;">		<!--Q&A-->
+				<div style="color: deeppink;font-family: yaheibd;font-size: 42px;text-align: center;">Q&A</div>		<!--Q&A标题-->
+				<div class="QA_left">
+					<h3>Q:什么时候去土耳其玩最合适呢？</h3>
+					<h3></h3>
+					<p>A:4-10月是土耳其的旅游旺季，但主要城市如伊斯坦布尔的春秋是最适合游览的季节，每年4-5月、9-10月，气温适中，既没有8月份的闷热，也没有冬天的寒冷，天空透彻晴朗，适合拍照。</p><br />
+					<h3>Q:土耳其电子签证一个月内可二次使用吗？</h3>
+					<h3></h3>
+					<p>A:不可以 。土耳其电子签证为单次签证，使用过即失效，再次前往需要重新申请签证。</p><br />
+					<h3>Q:旧护照的首页信息还需要提供吗？</h3>
+					<h3></h3>
+					<p>A:无需提供，只需提供目前有效的护照首页复印件即可。</p>
+					
+				</div>	
+				<div class="QA_right">
+					<h3>Q:土耳其都有些什么特色？</h3>
+					<h3></h3>
+					<p>A:4-10月是土耳其的旅游旺季，但主要城市如伊斯坦布尔的春秋是最适合游览的季节，每年4-5月、9-10月，气温适中，既没有8月份的闷热，也没有冬天的寒冷，天空透彻晴朗，适合拍照。</p><br />
+					<h3>Q:去土耳其需要哪些证件？</h3>
+					<h3></h3>
+					<p>A:不可以 。土耳其电子签证为单次签证，使用过即失效，再次前往需要重新申请签证。</p><br />
+					<h3>Q:土耳其都有些什么习惯？</h3>
+					<h3></h3>
+					<p>A:无需提供，只需提供目前有效的护照首页复印件即可。</p>
+					
+				</div><!--Q&A回答-->
+			</div>
+			<div onclick="pageScroll();" style="background-image: url(img/top.png);width: 40px;height: 40px;background-size: cover;border-radius: 50% 50% 50% 50%;position: fixed;left:0;top:85%;margin-left:95%;z-index:999;cursor: pointer;">
+			</div>
+			<div class="dibu">
+				<div>
+					<!--<p>了解小驴同学</p>-->
+					<ul>
+						<li><a href="#">了解小驴同学</a></li>
+						<li><a href="#">公司信息</a></li>
+						<li><a href="#">人才招聘</a></li>
+						<li><a href="#">新闻中心</a></li>
+						<li><a href="#">公益服务</a></li>
+						<li><a href="#">客户端</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="#">小驴同学商务</a></li>
+						<li><a href="#">景区上传</a></li>
+						<li><a href="#">旅游服务</a></li>
+						<li><a href="#">合作伙伴</a></li>
+						<li><a href="#">推广加盟</a></li>
+						<li><a href="#">投诉建议</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="#">支付方式</a></li>
+						<li><a href="#">支付宝</a></li>
+						<li><a href="#">微信</a></li>
+						<li><a href="#">银联</a></li>
+						<li><a href="#">Paypal</a></li>
+						<li><a href="#">Vista</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="#">法律信息</a></li>
+						<li><a href="#">消费者权益保护法</a></li>
+						<li><a href="#">网络交易管理办法</a></li>
+						<li><a href="#">中华人民共和国旅游法</a></li>
+						<li><a href="#">网络信息安全法</a></li>
+						<li><a href="#">广告法</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="logo">
+				<img src="img/logo/151162196374097.png"/>
+			</div>
+			<div class="banquan">		<!--版权-->
+				<div class="banquan_top">
+					<ul>
+						<li><a href="#">旅游服务</a></li>
+						<li><a href="#">推广方式</a></li>
+						<li><a href="#">小驴同学网络服务</a></li>
+						<li><a href="#">景点推荐</a></li>
+						<li><a href="#">关于我们</a></li>
+					</ul>
+				</div>
+				<div class="banquan_bt">
+					<ul>
+						<li><a href="#">使用守则</a></li>
+						<li><a href="#">隐私条例</a></li>
+						<li><a href="#">广告投放政策</a></li>
+						<li><a href="#">©2017,Yueyuelv.com,Inc, or its affiliates</a></li>
+				</div>
+			</div>
+		</div>
+		<script>  
+       				var box=document.getElementById('box');  
+      				var uls=document.getElementsByTagName('ul');  
+        			var imgs=uls[1].getElementsByTagName('li');  
+        			var btn=uls[2].getElementsByTagName('li');  
+        			var i=index=0; //中间量，统一声明；  
+        			var play=null;  
+        			console.log(box,uls,imgs,btn);//获取正确  
+  
+        			//图片切换, 淡入淡出效果（transition: opacity 0.8s linear）做的  
+        			function show(a){        //方法定义的是当传入一个下标时，按钮和图片做出对的反应  
+            			for(i=0;i<btn.length;i++ ){  
+                			btn[i].className='';    //每个缩略图都先设置成看不见，然后把当前缩略图设置成可见。  
+                			btn[a].className='current';  
+            			}  
+            			for(i=0;i<imgs.length;i++){ //把图片的效果设置和缩略图片相同  
+                			imgs[i].style.opacity=0;  
+                			imgs[a].style.opacity=1;  
+            			}  
+        			}  
+        			//切换按钮功能，响应对应图片  
+        			for(i=0;i<btn.length;i++){  
+            			btn[i].index=i;    
+            			btn[i].onmouseover=function(){  
+                			show(this.index);  
+                			clearInterval(play);   
+            			}  
+        			}  
+  
+        			//自动轮播方法  
+        			function autoPlay(){  
+            			play=setInterval(
+            				function(){ //这个paly是为了保存定时器的，变量必须在全局声明
+                				index++;  
+                				index>=imgs.length&&(index=0);//可能有优先级问题，所以用了括号  
+               					show(index);  
+            				},3000
+            			)
+        			}  
+        			autoPlay();//调用自动轮播的方法  
+  
+        			//div的鼠标移入移出事件  
+       				box.onmouseover=function(){  
+            			clearInterval(play);  
+        			};  
+        			box.onmouseout=function(){  
+            			autoPlay();  
+        			};  
+    			</script>
+	</body>
+</html>
